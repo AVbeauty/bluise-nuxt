@@ -1,5 +1,6 @@
 <template>
   <main>
+   <Header />
     <div class="intro">
       <h2>Nuxt Toolbox</h2>
       <p>
