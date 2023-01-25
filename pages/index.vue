@@ -1,20 +1,11 @@
 <template>
   <main>
-   <Header />
     <div class="intro">
       <h2>Nuxt Toolbox</h2>
-       <a href="https://bluise-nuxt.netlify.app/"
-          >Home</a>
+       <a href="https://bluise-nuxt.netlify.app/">Home</a>
 
       <p>
-        Hi 👋! This template gives you a
-        <a href="https://nuxtjs.org/">Nuxt</a> app with the scaffolding for
-        <a href="https://bluise-nuxt.netlify.app/"
-          > Bluise-nuxt</a
-        >, <a href="https://www.netlify.com/products/forms/">Forms</a>, and
-        <a href="https://docs.netlify.com/routing/redirects/">Redirects</a>. Our
-        aim was to give you the code you would need to hit the ground running
-        with a few fun features.
+       I share knowledge on web design, development & APIs., Visit my site https://bluise-nuxt.netlify.app
       </p>
 
       <p>
@@ -24,6 +15,7 @@
         >! Happy you!
       </p>
     </div>
+    <Header />
     <FeedbackForm />
     <JokeBlock />
     <Footer />
