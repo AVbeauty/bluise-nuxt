@@ -1,10 +1,10 @@
 <script>
 export default {
   data: () => ({
-    joke: '',
+    post: '',
   }),
   async mounted() {
-    this.joke = await fetch('/api/joke').then((res) => res.json())
+    this.post = await fetch('/api/post').then((res) => res.json())
   },
 }
 </script>
@@ -12,7 +12,7 @@ export default {
 <template>
   <article>
     <blockquote>
-      <p>{{ joke }}</p>
+      <p>{{ post }}</p>
     </blockquote>
   </article>
 </template>
