@@ -1,7 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-  e2e: {
+  form: {
     baseUrl: "http://localhost:8888/",
     supportFile: false,
     chromeWebSecurity: false,
