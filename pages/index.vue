@@ -3,6 +3,9 @@
    <Header />
     <div class="intro">
       <h2>Nuxt Toolbox</h2>
+       <a href="https://bluise-nuxt.netlify.app/"
+          >Home</a>
+
       <p>
         Hi 👋! This template gives you a
         <a href="https://nuxtjs.org/">Nuxt</a> app with the scaffolding for
@@ -16,13 +19,14 @@
 
       <p>
         You can find the code for this project on GitHub at
-        <a href="https://github.com/netlify-templates/nuxt-toolbox"
-          >https://github.com/netlify-templates/nuxt-toolbox</a
+        <a href="https://github.com/AVbeauty/bluise-nuxt"
+          > https://github.com/AVbeauty/bluise-nuxt</a
         >! Happy you!
       </p>
     </div>
     <FeedbackForm />
     <JokeBlock />
+    <Footer />
   </main>
 </template>
 
